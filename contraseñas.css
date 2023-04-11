@@ -1,0 +1,96 @@
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+    background-color: black;
+    margin: 0rem;
+    overflow: hidden;
+  }
+
+  .contraseñas {
+    width: 770px;
+    height: 320px;
+    background-color: white;
+    position:absolute;
+    margin-left: 50vh;
+    margin-top: 50vh;
+ 
+}
+
+#pass1 {
+    display: none;
+}
+
+#pass2 {
+    display: none;
+}
+
+#pass3 {
+    display: none;
+}
+
+#pass4 {
+    display: none;
+}
+
+#pass5 {
+    display: none;
+}
+
+#pass6 {
+    display: none;
+}
+
+
+
+.netflix{
+    background-color:green;
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-left: 0px;
+}
+
+.hbo{
+    background-color: rgb(117, 224, 203);
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-left: 10px;
+}
+
+.prime{
+    background-color: rgb(146, 205, 146);
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-left: 10px;
+    
+}
+
+.star{
+    background-color: rgb(113, 184, 113);
+    width: 250px;
+    height: 150px;
+    float: left;
+    top: 180px;
+    margin-left: 0px;
+}
+
+.paramount{
+    background-color: rgb(111, 196, 141);
+    width: 250px;
+    height: 150px;
+    float: left;
+    top: 190px;
+    margin-left: 10px;
+}
+
+.disney{
+    background-color: rgb(164, 220, 153);
+    width: 250px;
+    height: 150px;
+    float: left;
+    top: 180px;
+    margin-left: 10px;
+}
