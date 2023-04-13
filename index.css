@@ -95,7 +95,7 @@
 
 @media screen and (max-width: 900px) {
   body {
-    margin: 110px;
+    margin-left: 110px;
     padding: 0;
     width: 300px;
   }
