@@ -94,8 +94,16 @@
 }
 
 @media screen and (max-width: 900px) {
+  body {
+    width: 500px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    height: 600px;
+  }
+
   .contenedor {
-    width: 800px;
+    width: 100%;
     margin-left: 5px;
     margin-top: 5px;
     height: 800px;
@@ -130,4 +138,15 @@
     height: 100px;
     font-family: DynaPuff;
     font-size: 40px;
+  }
+
+  .contenedor > div,
+  .contenedor .st1,
+  .contenedor .st2,
+  .contenedor .st3,
+  .contenedor .st4,
+  .contenedor .st5,
+  .contenedor .st6 {
+    margin-left: 80px;
+  }
 }
