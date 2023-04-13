@@ -95,15 +95,16 @@
 
 @media screen and (max-width: 900px) {
   body {
-    margin: 0;
+    margin: 300px;
     padding: 0;
-    width: 200px;
+    width: 300px;
   }
 
   .contenedor {
     padding: 0;
     width: 100%;
     display: grid;
+    grid-gap: 10px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, auto);
     grid-template-areas:
