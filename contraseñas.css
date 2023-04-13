@@ -88,6 +88,12 @@ body {
 }
 
 @media screen and (max-width: 900px) {
+  body {
+    margin-left: 45px;
+    padding: 0;
+    width: 300px;
+  }
+
   .contraseñas {
     grid-template-areas:
       "netflix"
