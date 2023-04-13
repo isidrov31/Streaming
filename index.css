@@ -1,50 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&display=swap");
+
 * {
+  margin: 0;
+  padding: 0;
   background-color: black;
-  overflow: hidden;
-  font-size: 16px;
-  width: 100%;
-  height: 100%;
 }
 
 .contenedor {
-  width: 100%;
-  max-width: 75em;
+  width: 70%;
+  max-width: 800px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas:
+    "header header"
+    "st1 st2"
+    "st3 st4"
+    "st5 st6"
+    "footer footer";
 }
 
-.titulo {
-  position: relative;
+.contenedor > div,
+.contenedor .header,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .footer {
+  padding: 20px;
+}
+
+.contenedor .header {
+  font-family: DynaPuff;
+  font-size: 50px;
+  color: blanchedalmond;
+  grid-area: header;
+  text-align: center;
+}
+
+.contenedor .st1 {
+  grid-area: st1;
+  background-color: black;
+  width: 300px;
+  height: 340px;
+}
+
+.st1 img {
   max-width: 100%;
-  max-height: 20%;
- 
 }
 
-.titulo a{
-  text-decoration: none;
-  
+.contenedor .st2 {
+  grid-area: st2;
+  background-color: black;
+  width: 300px;
+  height: 340px;
+}
+.contenedor .st3 {
+  grid-area: st3;
+  background-color: black;
+  width: 300px;
+  height: 340px;
+}
+.contenedor .st4 {
+  grid-area: st4;
+  background-color: black;
+  width: 300px;
+  height: 340px;
+}
+.contenedor .st5 {
+  grid-area: st5;
+  background-color: black;
+  width: 300px;
+  height: 340px;
+}
+.contenedor .st6 {
+  grid-area: st6;
+  background-color: black;
+  width: 300px;
+  height: 340px;
 }
 
-.titulo h1{
-  position: relative;
-  left: 31rem;
-  font-size: 4.25rem;
-  color: white;
-  
+.contenedor .footer {
+  grid-area: footer;
+  background: black;
+  color: blanchedalmond;
+  text-align: center;
+  font-family: DynaPuff;
+  font-size: 50px;
 }
-
-#image-track {
-  display: flex;
-  gap: 4vmin;
-  position: absolute;
-  left: 50%;
-  top: 80%;
-  transform: translate(0%, -50%);
-  user-select: none; /* -- Prevent image highlighting -- */
-}
-
-#image-track a img.image {
-  width: 40vmin;
-  height: 56vmin;
-  object-fit: cover;
-  object-position: 100% center;
-}
-
