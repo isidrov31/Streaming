@@ -86,3 +86,15 @@ body {
   border: outset black;
   grid-area: paramount;
 }
+
+@media screen and (max-width: 900px) {
+  .contraseñas {
+    grid-template-areas:
+      "netflix"
+      "disney"
+      "prime"
+      "paramount"
+      "star"
+      "hbo";
+  }
+}
