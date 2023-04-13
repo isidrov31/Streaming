@@ -97,13 +97,14 @@
   body {
     margin: 0;
     padding: 0;
-    width: 300px;
+    width: 900px;
   }
 
   .contenedor {
+    margin: center;
+    padding: 0;
     width: 100%;
     display: grid;
-    grid-gap: 20px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, auto);
     grid-template-areas:
