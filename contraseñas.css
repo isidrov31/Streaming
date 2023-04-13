@@ -6,17 +6,10 @@
   background-color: gray;
 }
 
-body {
-  width: 300px;
-  margin-left: 10px;
-  margin-top: 10px;
-
-  height: 600px;
-}
-
 .contraseñas {
-  max-width: 700px;
-  min-height: 600px;
+  width: 70%;
+  max-width: 800px;
+  margin: 20px auto;
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(2, 1fr);
