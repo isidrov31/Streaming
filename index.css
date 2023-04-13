@@ -97,11 +97,10 @@
   body {
     margin: 0;
     padding: 0;
-    width: 900px;
+    width: 300px;
   }
 
   .contenedor {
-    margin: center;
     padding: 0;
     width: 100%;
     display: grid;
