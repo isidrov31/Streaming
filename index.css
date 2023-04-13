@@ -40,7 +40,7 @@
 
 .contenedor .st1 {
   grid-area: st1;
-  background-color: black;
+  background-color: transparent;
   width: 300px;
   height: 340px;
 }
@@ -51,40 +51,44 @@
 
 .contenedor .st2 {
   grid-area: st2;
-  background-color: black;
+  background-color: transparent;
   width: 300px;
   height: 340px;
 }
 .contenedor .st3 {
   grid-area: st3;
-  background-color: black;
+  background-color: transparent;
   width: 300px;
   height: 340px;
 }
 .contenedor .st4 {
   grid-area: st4;
-  background-color: black;
+  background-color: transparent;
   width: 300px;
   height: 340px;
 }
 .contenedor .st5 {
   grid-area: st5;
-  background-color: black;
+  background-color: transparent;
   width: 300px;
   height: 340px;
 }
 .contenedor .st6 {
   grid-area: st6;
-  background-color: black;
+  background-color: transparent;
   width: 300px;
   height: 340px;
 }
 
+.contenedor .footer a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
 .contenedor .footer {
   grid-area: footer;
-  background: black;
-  color: blanchedalmond;
+  background-color: transparent;
   text-align: center;
   font-family: DynaPuff;
-  font-size: 50px;
+  margin-top: 50px;
+  font-size: 80px;
 }

@@ -1,96 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
 body {
-    position: relative;
-    height: 100vh;
-    width: 100vh;
-    background-color: black;
-    margin: 0rem;
-    overflow: hidden;
-  }
-
-  .contraseñas {
-    width: 770px;
-    height: 320px;
-    background-color: white;
-    position:absolute;
-    margin-left: 50vh;
-    margin-top: 50vh;
- 
+  width: 1000px;
+  margin-left: 500px;
+  height: 1000px;
 }
 
-#pass1 {
-    display: none;
+.contraseñas {
+  max-width: 600px;
+  min-height: 600px;
+  margin: 200px auto;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    "netflix hbo"
+    "disney prime"
+    "paramount star";
 }
 
-#pass2 {
-    display: none;
+.netflix {
+  font-family: DynaPuff;
+  grid-area: st1;
+  background-color: transparent;
+  width: 300px;
+  height: 100px;
+  border: outset black;
+  grid-area: netflix;
 }
 
-#pass3 {
-    display: none;
+.hbo {
+  font-family: DynaPuff;
+  grid-area: st1;
+  background-color: transparent;
+  width: 300px;
+  height: 100px;
+  border: outset black;
+  grid-area: hbo;
 }
 
-#pass4 {
-    display: none;
+.disney {
+  font-family: DynaPuff;
+  grid-area: st1;
+  background-color: transparent;
+  width: 300px;
+  height: 100px;
+  border: outset black;
+  grid-area: disney;
 }
 
-#pass5 {
-    display: none;
+.prime {
+  font-family: DynaPuff;
+  grid-area: st1;
+  background-color: transparent;
+  width: 300px;
+  height: 100px;
+  border: outset black;
+  grid-area: prime;
 }
 
-#pass6 {
-    display: none;
+.star {
+  font-family: DynaPuff;
+  grid-area: st1;
+  background-color: transparent;
+  width: 300px;
+  height: 100px;
+  border: outset black;
+  grid-area: star;
 }
 
-
-
-.netflix{
-    background-color:green;
-    width: 250px;
-    height: 150px;
-    float: left;
-    margin-left: 0px;
-}
-
-.hbo{
-    background-color: rgb(117, 224, 203);
-    width: 250px;
-    height: 150px;
-    float: left;
-    margin-left: 10px;
-}
-
-.prime{
-    background-color: rgb(146, 205, 146);
-    width: 250px;
-    height: 150px;
-    float: left;
-    margin-left: 10px;
-    
-}
-
-.star{
-    background-color: rgb(113, 184, 113);
-    width: 250px;
-    height: 150px;
-    float: left;
-    top: 180px;
-    margin-left: 0px;
-}
-
-.paramount{
-    background-color: rgb(111, 196, 141);
-    width: 250px;
-    height: 150px;
-    float: left;
-    top: 190px;
-    margin-left: 10px;
-}
-
-.disney{
-    background-color: rgb(164, 220, 153);
-    width: 250px;
-    height: 150px;
-    float: left;
-    top: 180px;
-    margin-left: 10px;
+.paramount {
+  font-family: DynaPuff;
+  grid-area: st1;
+  background-color: transparent;
+  width: 300px;
+  height: 100px;
+  border: outset black;
+  grid-area: paramount;
 }
