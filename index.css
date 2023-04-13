@@ -96,8 +96,6 @@
 @media screen and (max-width: 900px) {
   body {
     width: 300px;
-    margin-left: 10px;
-    margin-top: 10px;
   }
 
   .contenedor {
@@ -126,7 +124,6 @@
     grid-area: header;
     text-align: center;
     width: 100%;
-
     height: 100px;
   }
 
