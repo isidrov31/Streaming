@@ -101,13 +101,16 @@
     height: 600px;
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, auto);
     grid-template-areas:
-      "header header"
-      "st1 st2"
-      "st3 st4"
-      "st5 st6"
-      "footer footer";
+      "header"
+      "st1"
+      "st2"
+      "st3"
+      "st4"
+      "st5"
+      "st6"
+      "footer";
   }
 }
